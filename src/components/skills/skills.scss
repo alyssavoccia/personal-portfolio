@@ -1,0 +1,13 @@
+@import '../../global.scss';
+
+.skills {
+  align-items: center;
+  background-color: $lightBlue;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+
+  h1 {
+    font-size: 50px;
+  }
+}

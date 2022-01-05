@@ -1,0 +1,120 @@
+@import '../../global.scss';
+
+.portfolio {
+  align-items: center;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding: 0; 
+
+    li {
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-right: 50px;
+      padding: 7px;
+
+      &.active {
+        background-color: $lightBlue;
+      }
+    }
+  }
+
+  .container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      overflow: hidden;
+      width: 325px;
+
+      .card-header img {
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      .card-body {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 250px;
+        padding: 20px;
+
+        p {
+          font-size: 13px;
+          margin: 0 0 40px;
+        }
+
+        .tag {
+          background: #cccccc;
+          border-radius: 50px;
+          color: #fff;
+          font-size: 12px;
+          margin: 0 5px 0 0;
+          padding: 2px 10px;
+          text-transform: uppercase;
+  
+          &.tag-react {
+            background-color: $lightBlue;
+          }
+  
+          &.tag-html-css-js {
+            background-color: $pink;
+          }
+  
+          &.tag-treehouse {
+            background-color: $navy;
+          }
+        }
+
+        .links {
+          align-items: center;
+          display: flex;
+          margin-top: auto;
+
+          .card-link {
+            color: #222;
+            display: flex;
+            margin-right: 10px;
+            text-decoration: none;
+            transition: all 0.5s ease;
+
+            i {
+              margin-right: 2px;
+            }
+
+            &.github {
+              background-color: #222;
+              border-radius: 3px;
+              color: #FFF;
+              padding: 5px 10px;
+            }
+
+            &:hover {
+              color: $pink;
+            }
+          }
+        }
+      }
+    }
+  }
+}

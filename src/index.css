@@ -1,8 +1,10 @@
 * {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
+  color: #222;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
