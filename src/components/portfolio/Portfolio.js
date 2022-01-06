@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import { useState, useEffect } from 'react';
@@ -58,22 +59,23 @@ export default function Portfolio() {
         ))}
       </ul>
       <div className="container">
-        {data.map((data) => (
+        {console.log(data)}
+        {data ? data.map((data) => (
           <div class="card">
             <div class="card-header">
               <img src={data.img} alt={data.alt} />
             </div>
             <div class="card-body">
-              <span class={`tag ${data.tag}`}>{data.tag === 'html-css-js' ? 'html/css/js' : data.tag}</span>
+              <span className={`tag ${data.tag}`}>{data.tag === 'html-css-js' ? 'html/css/js' : data.tag}</span>
               <h4>{data.title}</h4>
               <p>{data.description}</p>
               <div class="links">
-                <a className='card-link github' href={data.github}><i class="fab fa-github"></i>Github</a>
-                <a className='card-link' href={data.demo}>Demo</a>
+                <a className='card-link github' href={data.github} target='_blank'><i class="fab fa-github"></i>Github</a>
+                <a className='card-link' href={data.demo} target='_blank'>Demo</a>
               </div>
             </div>
           </div>
-        ))}
+        )) : ''}
         
       </div>
   </div>
