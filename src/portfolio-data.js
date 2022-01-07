@@ -25,7 +25,7 @@ export const featuredPortfolio = [
     title: 'Crwn Clothing',
     img: 'assets/portfolio-pics/crwn-clothing.png',
     alt: 'Crown Clothing',
-    description: 'This project was completed during the Complete React Developer in 2022 course. Fictional clothing store created using React and Stripe. The user is able to sign up/sign in, view various directories, add items to their cart, and go through the checkout process.',
+    description: 'This project was completed during the Complete React Developer in 2022 course. Fictional clothing store created using React and Stripe. The user is able to sign up/sign in, view various directories, add items to their cart, and go through the checkout process. The checkout process is done through a test version of Stripe.',
     github: 'https://github.com/alyssavoccia/crwn-clothing',
     demo: 'http://crwn-clothing-testing.herokuapp.com/'
   },
@@ -78,7 +78,7 @@ export const reactPortfolio = [
     title: 'Crwn Clothing',
     img: 'assets/portfolio-pics/crwn-clothing.png',
     alt: 'Crown Clothing',
-    description: 'This project was completed during the Complete React Developer in 2022 course. Fictional clothing store created using React and Stripe. The user is able to sign up/sign in, view various directories, add items to their cart, and go through the checkout process.',
+    description: 'This project was completed during the Complete React Developer in 2022 course. Fictional clothing store created using React and Stripe. The user is able to sign up/sign in, view various directories, add items to their cart, and go through the checkout process. The checkout process is done through a test version of Stripe.',
     github: 'https://github.com/alyssavoccia/crwn-clothing',
     demo: 'http://crwn-clothing-testing.herokuapp.com/'
   },

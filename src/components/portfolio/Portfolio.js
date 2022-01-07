@@ -52,25 +52,24 @@ export default function Portfolio() {
 
   return (
     <div className='portfolio' id='portfolio'>
-      <h1>Portfolio</h1>
+      <h1 className='section-title'>Portfolio</h1>
       <ul>
         {list.map(item => (
           <PortfolioList title={item.title} active={selected === item.id} setSelected={setSelected} id={item.id} />
         ))}
       </ul>
       <div className="container">
-        {console.log(data)}
         {data ? data.map((data) => (
-          <div class="card">
-            <div class="card-header">
+          <div className="card" key={data.id}>
+            <div className="card-header">
               <img src={data.img} alt={data.alt} />
             </div>
-            <div class="card-body">
+            <div className="card-body">
               <span className={`tag ${data.tag}`}>{data.tag === 'html-css-js' ? 'html/css/js' : data.tag}</span>
-              <h4>{data.title}</h4>
-              <p>{data.description}</p>
-              <div class="links">
-                <a className='card-link github' href={data.github} target='_blank'><i class="fab fa-github"></i>Github</a>
+              <h4 className='project-title'>{data.title}</h4>
+              <p className='project-description'>{data.description}</p>
+              <div className="links">
+                <a className='card-link github' href={data.github} target='_blank'><i className="fab fa-github"></i>Github</a>
                 <a className='card-link' href={data.demo} target='_blank'>Demo</a>
               </div>
             </div>

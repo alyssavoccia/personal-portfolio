@@ -8,15 +8,28 @@
   margin-bottom: 50px;
   padding: 50px 0;
 
-  h1 {
+  .section-title {
     font-size: 50px;
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      border-top: 12px solid $pink;
+      bottom: 0;
+      content: '';
+      left: 0;
+      margin: 0 auto;
+      position: absolute;
+      right: 0;
+      top: 36px;
+      z-index: -1;
+    }
   }
 
   .skill-lists {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding-bottom: 20px;
     width: 100%;
 
     .skill-list ul {
@@ -47,11 +60,6 @@
 
         &.list-item-short:before {
           width: 70%;
-        }
-
-        &.list-item-long:before {
-          left: -5px;
-          width: 150%;
         }
       }
     }

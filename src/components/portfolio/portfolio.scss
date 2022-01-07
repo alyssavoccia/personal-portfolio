@@ -2,14 +2,27 @@
 
 .portfolio {
   align-items: center;
-  background-color: #FFF;
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
   padding: 50px 0;
 
-  h1 {
+  .section-title {
     font-size: 50px;
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      border-top: 12px solid $pink;
+      bottom: 0;
+      content: '';
+      left: 0;
+      margin: 0 auto;
+      position: absolute;
+      right: 0;
+      top: 36px;
+      z-index: -1;
+    }
   }
 
   ul {
@@ -20,16 +33,18 @@
   }
 
   .container {
-    align-items: center;
+    align-items: stretch;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1100px;
 
     .card {
-      background-color: #fff;
+      background-color: #FFF;
       border-radius: 10px;
       box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
       margin: 10px;
       overflow: hidden;
       width: 325px;
@@ -44,6 +59,7 @@
         align-items: flex-start;
         display: flex;
         flex-direction: column;
+        flex-grow: 1;
         justify-content: center;
         min-height: 250px;
         padding: 20px;
@@ -57,6 +73,7 @@
           background: #cccccc;
           border-radius: 50px;
           color: #fff;
+          display: flex;
           font-size: 12px;
           margin: 0 5px 0 0;
           padding: 2px 10px;
@@ -75,12 +92,17 @@
           }
         }
 
+        .project-description {
+          display: flex;
+        }
+
         .links {
           align-items: center;
           display: flex;
           margin-top: auto;
 
           .card-link {
+            align-items: center;
             color: #222;
             display: flex;
             margin-right: 10px;
