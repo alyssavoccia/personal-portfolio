@@ -66,8 +66,16 @@ export const educationResume = [
   },
   {
     id: 3,
+    leftTitle: 'Google Digital Garage',
+    dates: '2020',
+    rightTitle: 'The Fundamentals of Digital Marketing',
+    points: ['Credential ID: P2R V2Q 74S']
+  },
+  {
+    id: 4,
     leftTitle: 'Team Treehouse',
     dates: '2019',
     rightTitle: 'Front End Techdegree'
   }
+
 ];
