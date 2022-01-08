@@ -13,7 +13,7 @@ $mediumWidth: 768px;
 }
 
 @mixin medium {
-  @media (max-width: #{$mediumWidth}) {
+  @media (min-width: #{$mediumWidth}) {
     @content
   }
 }

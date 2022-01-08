@@ -11,7 +11,7 @@ export default function Hero() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1000,
-      strings: ['web developer.', 'designer.', 'dog mom.'],
+      strings: ['web developer.', 'designer.'],
     })
   }, [])
 
