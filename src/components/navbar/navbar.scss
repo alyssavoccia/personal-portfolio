@@ -25,6 +25,10 @@
         font-size: 40px;
         font-weight: 700;
         text-decoration: none;
+
+        @include mobile {
+          font-size: 34px;
+        }
       }
     }
 

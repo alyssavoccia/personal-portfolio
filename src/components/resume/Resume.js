@@ -38,21 +38,21 @@ export default function Resume() {
       <h1 className='section-title'>Resume</h1>
       <ul>
         {list.map(item => (
-          <ResumeList title={item.title} active={selected === item.id} setSelected={setSelected} id={item.id} />
+          <ResumeList key={item.title} title={item.title} active={selected === item.id} setSelected={setSelected} id={item.id} />
         ))}
       </ul>
       <div className="container">
         {/* EXPERIENCE */}
         <div className="resume-section">
-          {data ? data.map((data) => (
-            <div className="item">
+          {data ? data.map((data, i) => (
+            <div className="item" key={i}>
               <div className="item-title">
                 <h6>{data.dates}</h6>
                 <h2>{data.leftTitle}</h2>
               </div>
               <div className="item-info">
                 <h2>{data.rightTitle}</h2>
-                {data.points ? data.points.map((point => <p>{point}</p>)) : ''}
+                {data.points ? data.points.map(((point, i) => <p key={i}>{point}</p>)) : ''}
               </div>
             </div>
           )) : ''}

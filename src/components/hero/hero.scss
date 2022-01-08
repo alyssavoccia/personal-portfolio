@@ -6,10 +6,26 @@
   display: flex;
   height: calc(100vh - 60px);
 
+  @include mobile {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .left {
     align-self: center;
+    display: flex;
     flex: 0.5;
-    overflow: hidden;
+
+    @include medium {
+      padding-left: 20px;
+    }
+
+    @include mobile {
+      align-items: center;
+      max-height: 300px;
+      padding-top: 10px;
+    }
 
     .imgContainer {
       align-items: flex-end;
@@ -21,8 +37,22 @@
       margin: 0 auto;
       width: 500px;
 
+      @include medium {
+        height: 400px;
+        width: 400px;
+      }
+
+      @include mobile {
+        height: 245px;
+        width: 245px;
+      }
+
       img {
         height: 100%;
+
+        @include mobile {
+          height: 100%;
+        }
       }
     }
   }
@@ -38,6 +68,12 @@
       justify-content: center;
       padding-left: 50px;
       width: 100%;
+
+      @include mobile {
+        align-items: center;
+        padding-left: 0;
+        width: 350px;
+      }
 
       h1 {
         font-size: 60px;

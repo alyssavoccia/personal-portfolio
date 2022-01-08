@@ -28,17 +28,17 @@ export default function Contact() {
         <div className="left-side">
           <h1 className="section-title">Let's discuss your next project</h1>
           <div className="section-socials">
-            <a href="https://twitter.com/alyssa_voccia" target='_blank'><i class="fa fa-brands fa-twitter fa-2x"></i></a>
-            <a href='https://github.com/alyssavoccia' target='_blank'><i class="fa fa-brands fa-github fa-2x"></i></a>
-            <a href='https://www.linkedin.com/in/alyssa-voccia/' target='_blank'><i class="fa fa-brands fa-linkedin fa-2x"></i></a>
+            <a href="https://twitter.com/alyssa_voccia" target='_blank'><i className="fa fa-brands fa-twitter fa-2x"></i></a>
+            <a href='https://github.com/alyssavoccia' target='_blank'><i className="fa fa-brands fa-github fa-2x"></i></a>
+            <a href='https://www.linkedin.com/in/alyssa-voccia/' target='_blank'><i className="fa fa-brands fa-linkedin fa-2x"></i></a>
 
           </div>
         </div>
         <div className="right-side">
           <form ref={formRef} onSubmit={handleSubmit}>
             <input id='user_name' type="text" name="user_name" placeholder='Name' />
+            <input id='user_email' type="email" name="email" placeholder='Email' />
             <input id='user_subject' type="text" name="user_subject" placeholder='Subject' />
-            <input id='user_email' type="text" name="email" placeholder='Email' />
             <textarea id='user_message' rows="5" placeholder='Message' name='message' />
             <button>Submit</button>
           </form>

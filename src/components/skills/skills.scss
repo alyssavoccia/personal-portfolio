@@ -46,6 +46,10 @@
         text-align: center;
         z-index: 1;
 
+        @include mobile {
+          font-size: 14px;
+        }
+
         &:before {
           border-top: 7px solid $pink;
           bottom: 0;

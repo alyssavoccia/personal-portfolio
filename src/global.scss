@@ -2,3 +2,18 @@ $darkNavy: #283149;
 $navy: #404b69;
 $pink: #f73859;
 $lightBlue : #8cc8dd;
+
+$mobileWidth: 760px;
+$mediumWidth: 768px;
+
+@mixin mobile {
+  @media (max-width: #{$mobileWidth}) {
+    @content
+  }
+}
+
+@mixin medium {
+  @media (max-width: #{$mediumWidth}) {
+    @content
+  }
+}
