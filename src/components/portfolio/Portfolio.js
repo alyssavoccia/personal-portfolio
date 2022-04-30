@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import './portfolio.scss';
 
 import PortfolioList from '../portfolio-list/PortfolioList';
-import { featuredPortfolio, reactPortfolio, htmlCssJsPortfolio, treehousePortfolio } from '../../portfolio-data';
+import { featuredPortfolio, reactPortfolio, htmlCssJsPortfolio, treehousePortfolio, clientsPortfolio } from '../../portfolio-data';
 
 
 export default function Portfolio() {
@@ -28,6 +28,10 @@ export default function Portfolio() {
     {
       id: "treehouse",
       title: "Treehouse Techdegree"
+    },
+    {
+      id: "clients",
+      title: "Clients"
     }
   ];
 
@@ -44,6 +48,9 @@ export default function Portfolio() {
         break;
       case 'treehouse':
         setData(treehousePortfolio);
+        break;
+      case 'clients':
+        setData(clientsPortfolio);
         break;
       default:
         setData(featuredPortfolio);

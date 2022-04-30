@@ -4,7 +4,8 @@ export const experienceResume = [
     leftTitle: "Assistant Women's Lacrosse Coach",
     dates: '2021 - Present',
     rightTitle: 'Palm Beach Atlantic University',
-    points: ['Create individual workouts and training programs for the student-athletes.', 
+    points: [
+              'Create individual workouts and training programs for the student-athletes.', 
               'Create and manage graphics and content for social media platforms.', 
               'Monitor student-athlete academic progress and study hall.'
             ]
@@ -14,9 +15,11 @@ export const experienceResume = [
     leftTitle: 'Director of Operations',
     dates: '2021 - Present',
     rightTitle: 'Lax Maniax',
-    points: ['Lead Maniax Training - a training system for Maniax Members providing weekly training content.', 
-                'Manage and create team travel rosters, as well as creating documents with tournament and club information.', 
-                'Create graphics and content across social media platforms.'
+    points: [
+              'Manage and maintain LaxManiax.com with up to date information',
+              'Lead Maniax Training - a training system for Maniax Members providing weekly training content.', 
+              'Manage and create team travel rosters, as well as creating documents with tournament and club information.', 
+              'Create graphics and content across social media platforms.'
             ]
   },
   {
@@ -24,7 +27,8 @@ export const experienceResume = [
     leftTitle: "Women's Lacrosse Graduate Assistant",
     dates: '2019 - 2021',
     rightTitle: 'Lenoir-Rhyne University',
-    points: ['Actively contribute to practice plans, scouting reports, game plans, and breakdown of all film.',
+    points: [
+              'Actively contribute to practice plans, scouting reports, game plans, and breakdown of all film.',
               'Managed and created graphics for all social media platforms; gameday, schedule, milestones, and game reports',
               'Monitor student-athlete academic progress, study hall, and provide supplemental academic advising.',
               'Coordinate and oversee team community service opportunities'
@@ -35,7 +39,8 @@ export const experienceResume = [
     leftTitle: 'Media Relations Intern',
     dates: '2018',
     rightTitle: 'Limestone College',
-    points: ["Developed a mobile-first responsive website for the school's GameChanger program.",
+    points: [
+              "Developed a mobile-first responsive website for the school's GameChanger program.",
               "Involved in media coverage of the school's sports teams and communication with other schools' media teams",
               "Provided feedback to Conference Carolina's administration with suggestions for their website redesign."
     ]
@@ -45,7 +50,8 @@ export const experienceResume = [
     leftTitle: 'Club Lacrosse Coach',
     dates: '2016 - 2018',
     rightTitle: 'Lax Maniax',
-    points: ['In charge of planning and running drills in practice and assisting players in the recruiting process.',
+    points: [
+              'In charge of planning and running drills in practice and assisting players in the recruiting process.',
               'Responsible for communicating with college coaches on the sideline during tournaments.'
     ]
   }

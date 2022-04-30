@@ -7,10 +7,20 @@ export const featuredPortfolio = [
     alt: 'Lax Dashboard',
     description: 'Dashboard proejct created using React and Material UI, and Firebase. Users are able to login with authentication through Firebase and see how their metrics match up against others. This app is suited for college/club teams, as well as high school students who want to sign up and see how they match up with others across the country.',
     github: 'https://github.com/alyssavoccia/lax-dashboard',
-    demo: 'https://alyssavoccia.github.io/lax-dashboard/'
+    demo: 'http://laxdashboard.rf.gd/'
   },
   {
     id: 2,
+    tag: 'react',
+    title: 'VAV Customs V2',
+    img: 'assets/portfolio-pics/vav-customs.png',
+    alt: 'VAV Customs',
+    description: 'This project was recently redone with React! It utilizes a landing page for the homepage, making use of CSS Grid. It also contains a blog & store page. While the blog page is currently under construction, the shop page utilizes the Shopify-Buy SDK to render shop items.',
+    github: 'https://github.com/alyssavoccia/crwn-clothing',
+    demo: 'http://crwn-clothing-testing.herokuapp.com/'
+  },
+  {
+    id: 3,
     tag: 'html-css-js',
     title: 'Train It Log It',
     img: 'assets/portfolio-pics/trainit.png',
@@ -18,16 +28,6 @@ export const featuredPortfolio = [
     description: 'Project created using JavaScript and Firebase that allows users to be able to sign up and record their workouts. Users are only able to enter the app once they have either signed up or logged into their existing account. It also includes a leaderboard so that users are able to see where they stand, the ability to add/remove friends.',
     github: 'https://github.com/alyssavoccia/trainit-logit',
     demo: 'https://alyssavoccia.github.io/trainit-logit'
-  },
-  {
-    id: 3,
-    tag: 'react',
-    title: 'Crwn Clothing',
-    img: 'assets/portfolio-pics/crwn-clothing.png',
-    alt: 'Crown Clothing',
-    description: 'This project was completed during the Complete React Developer in 2022 course. Fictional clothing store created using React and Stripe. The user is able to sign up/sign in, view various directories, add items to their cart, and go through the checkout process. The checkout process is done through a test version of Stripe.',
-    github: 'https://github.com/alyssavoccia/crwn-clothing',
-    demo: 'http://crwn-clothing-testing.herokuapp.com/'
   },
   {
     id: 4,
@@ -70,10 +70,30 @@ export const reactPortfolio = [
     alt: 'Lax Dashboard',
     description: 'Dashboard proejct created using React and Material UI, and Firebase. Users are able to login with authentication through Firebase and see how their metrics match up against others. This app is suited for college/club teams, as well as high school students who want to sign up and see how they match up with others across the country.',
     github: 'https://github.com/alyssavoccia/lax-dashboard',
-    demo: 'https://alyssavoccia.github.io/lax-dashboard/'
+    demo: 'http://laxdashboard.rf.gd/'
   },
   {
     id: 2,
+    tag: 'react',
+    title: 'VAV Customs V2',
+    img: 'assets/portfolio-pics/vav-customs.png',
+    alt: 'VAV Customs',
+    description: 'This project was recently redone with React! It utilizes a landing page for the homepage, making use of CSS Grid. It also contains a blog & store page. While the blog page is currently under construction, the shop page utilizes the Shopify-Buy SDK to render shop items.',
+    github: 'https://github.com/alyssavoccia/crwn-clothing',
+    demo: 'http://crwn-clothing-testing.herokuapp.com/'
+  },
+  {
+    id: 3,
+    tag: 'react',
+    title: 'Github Finder',
+    img: 'assets/portfolio-pics/github-finder.png',
+    alt: 'Monsters Rolodex',
+    description: "This is a React project that allows users to search for Github users to view information about their profile. It uses React's useContext and Github's API to allow users to be able to search for a specific user. When selecting a user, you are able to see information about their profile, such as how many repos they have and links to those repos.",
+    github: 'https://github.com/alyssavoccia/github-finder',
+    demo: 'https://github-finder-brown.vercel.app/'
+  },
+  {
+    id: 4,
     tag: 'react',
     title: 'Crwn Clothing',
     img: 'assets/portfolio-pics/crwn-clothing.png',
@@ -83,7 +103,7 @@ export const reactPortfolio = [
     demo: 'http://crwn-clothing-testing.herokuapp.com/'
   },
   {
-    id: 3,
+    id: 5,
     tag: 'react',
     title: 'Digital Business Card',
     img: 'assets/portfolio-pics/digital-business-card.png',
@@ -93,7 +113,7 @@ export const reactPortfolio = [
     demo: 'https://alyssavoccia.github.io/digital-business-card/'
   },
   {
-    id: 4,
+    id: 6,
     tag: 'react',
     title: 'Expensify App',
     img: 'assets/portfolio-pics/expensify-app.png',
@@ -101,16 +121,6 @@ export const reactPortfolio = [
     description: 'This is an app that I created while completing a Complete React Developer course. It includes the ability for users to sign up/sign in and track their expenses, utilizing Firebase to authenticate users and store the data.',
     github: 'https://github.com/alyssavoccia/react-course-2-expensify-app',
     demo: 'https://react-expensifyapp.herokuapp.com/'
-  },
-  {
-    id: 5,
-    tag: 'react',
-    title: 'Monsters Rolodex',
-    img: 'assets/portfolio-pics/monsters-rolodex.png',
-    alt: 'Monsters Rolodex',
-    description: 'This is a simple React project that creates a searchable directory of monster cards using Fetch API.',
-    github: 'https://github.com/alyssavoccia/monsters-rolodex',
-    demo: 'https://alyssavoccia.github.io/monsters-rolodex/'
   }
 ];
 
@@ -239,3 +249,26 @@ export const treehousePortfolio = [
     demo: 'https://alyssavoccia.github.io/online-registration/'
   }
 ];
+
+export const clientsPortfolio = [
+  {
+    id: 1,
+    tag: 'html-css-js',
+    title: 'Seaside Equity Group',
+    img: 'assets/portfolio-pics/seaside-equity-group.png',
+    alt: 'Seaside Equity Group',
+    description: 'Landing page for a real estate investment firm. Currently only has a link to subscribe to their newsletter.',
+    github: 'https://github.com/alyssavoccia/seaside-equity-group',
+    demo: 'https://alyssavoccia.github.io/seaside-equity-group/'
+  },
+  {
+    id: 2,
+    tag: 'react',
+    title: 'VAV Customs V2',
+    img: 'assets/portfolio-pics/vav-customs.png',
+    alt: 'VAV Customs',
+    description: 'This project was recently redone with React! It utilizes a landing page for the homepage, making use of CSS Grid. It also contains a blog & store page. While the blog page is currently under construction, the shop page utilizes the Shopify-Buy SDK to render shop items.',
+    github: 'https://github.com/alyssavoccia/crwn-clothing',
+    demo: 'http://crwn-clothing-testing.herokuapp.com/'
+  },
+]
