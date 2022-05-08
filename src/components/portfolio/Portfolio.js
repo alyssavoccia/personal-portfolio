@@ -76,8 +76,8 @@ export default function Portfolio() {
               <h4 className='project-title'>{data.title}</h4>
               <p className='project-description'>{data.description}</p>
               <div className="links">
-                <a className='card-link github' href={data.github} target='_blank'><i className="fab fa-github"></i>Github</a>
-                <a className='card-link' href={data.demo} target='_blank'>Demo</a>
+                {data.github && <a className='card-link github' href={data.github} target='_blank'><i className="fab fa-github"></i>Github</a>}
+                <a className='card-link' href={data.demo ? data.demo : data.liveSite} target='_blank'>{data.demo ? 'Demo' : 'Live Site'}</a>
               </div>
             </div>
           </div>

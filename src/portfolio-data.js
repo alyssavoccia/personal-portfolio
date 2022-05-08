@@ -5,7 +5,7 @@ export const featuredPortfolio = [
     title: 'Lax Dashboard',
     img: 'assets/portfolio-pics/lax-dashboard.png',
     alt: 'Lax Dashboard',
-    description: 'Dashboard proejct created using React and Material UI, and Firebase. Users are able to login with authentication through Firebase and see how their metrics match up against others. This app is suited for college/club teams, as well as high school students who want to sign up and see how they match up with others across the country.',
+    description: 'Dashboard project created using React and Material UI, and Firebase. Users are able to login with authentication through Firebase and see how their metrics match up against others. This app is suited for college/club teams, as well as high school students who want to sign up and see how they match up with others across the country.',
     github: 'https://github.com/alyssavoccia/lax-dashboard',
     demo: 'http://laxdashboard.rf.gd/'
   },
@@ -31,6 +31,15 @@ export const featuredPortfolio = [
   },
   {
     id: 4,
+    tag: 'html-css-js',
+    title: 'Idea Tree Consulting',
+    img: 'assets/portfolio-pics/ideatree.png',
+    alt: 'Idea Tree',
+    description: 'This project was a landing page done for Idea Tree Consulting. It utilizes CSS Flexbox for the layout. It makes use of several sections and multiple card elements created with flexbox to display various information. This was created mobile first and utilizes a one column layout and hamburger menu for small devices.',
+    liveSite: 'https://ideatreeconsult.com/'
+  },
+  {
+    id: 5,
     tag: 'treehouse',
     title: 'Employee Directory',
     img: 'assets/portfolio-pics/employee-directory.JPG',
@@ -40,7 +49,7 @@ export const featuredPortfolio = [
     demo: 'https://alyssavoccia.github.io/employee-directory/' 
   },
   {
-    id: 5,
+    id: 6,
     tag: 'treehouse',
     title: 'Photo Gallery',
     img: 'assets/portfolio-pics/photo-gallery.png',
@@ -48,16 +57,6 @@ export const featuredPortfolio = [
     description: 'This project utilizes flexbox for a responsive layout the use of a jQuery plugin for a lightbox. The use of vanilla JavaScript allows the user to search/filter through the grid of images.',
     github: 'https://github.com/alyssavoccia/photo-gallery',
     demo: 'https://alyssavoccia.github.io/photo-gallery/'
-  },
-  {
-    id: 6,
-    tag: 'treehouse',
-    title: 'Style Guide',
-    img: 'assets/portfolio-pics/style-guide.png',
-    alt: 'Style Guide',
-    description: 'A style guide created using Sass to help aid a user in the development of a website.',
-    github: 'https://github.com/alyssavoccia/style-guide',
-    demo: 'https://alyssavoccia.github.io/style-guide/'
   }
 ];
 
@@ -68,7 +67,7 @@ export const reactPortfolio = [
     title: 'Lax Dashboard',
     img: 'assets/portfolio-pics/lax-dashboard.png',
     alt: 'Lax Dashboard',
-    description: 'Dashboard proejct created using React and Material UI, and Firebase. Users are able to login with authentication through Firebase and see how their metrics match up against others. This app is suited for college/club teams, as well as high school students who want to sign up and see how they match up with others across the country.',
+    description: 'Dashboard project created using React and Material UI, and Firebase. Users are able to login with authentication through Firebase and see how their metrics match up against others. This app is suited for college/club teams, as well as high school students who want to sign up and see how they match up with others across the country.',
     github: 'https://github.com/alyssavoccia/lax-dashboard',
     demo: 'http://laxdashboard.rf.gd/'
   },
@@ -158,6 +157,15 @@ export const htmlCssJsPortfolio = [
   {
     id: 4,
     tag: 'html-css-js',
+    title: 'Idea Tree Consulting',
+    img: 'assets/portfolio-pics/ideatree.png',
+    alt: 'Idea Tree',
+    description: 'This project was a landing page done for Idea Tree Consulting. It utilizes CSS Flexbox for the layout. It makes use of several sections and multiple card elements created with flexbox to display various information. This was created mobile first and utilizes a one column layout and hamburger menu for small devices.',
+    liveSite: 'https://ideatreeconsult.com/'
+  },
+  {
+    id: 5,
+    tag: 'html-css-js',
     title: 'Clear View Escapes',
     img: 'assets/portfolio-pics/clear-view-escapes.png',
     alt: 'Clear View Escapes',
@@ -166,7 +174,7 @@ export const htmlCssJsPortfolio = [
     demo: 'https://alyssavoccia.github.io/travel-site/'
   },
   {
-    id: 5,
+    id: 6,
     tag: 'html-css-js',
     title: 'The Pig Game',
     img: 'assets/portfolio-pics/the-pig-game.png',
@@ -174,16 +182,6 @@ export const htmlCssJsPortfolio = [
     description: "This is a game completed during The Complete JavaScript Course where 2 players to race to 100 points. The current score goes up on each dice roll until a player rolls a 1. Upon rolling a 1, the player will lose their current score and it will be the next player's turn. To keep their current score, the user can choose to hold and let the next player go.",
     github: 'https://github.com/alyssavoccia/the-pig-game',
     demo: 'https://alyssavoccia.github.io/the-pig-game/'
-  },
-  {
-    id: 6,
-    tag: 'html-css-js',
-    title: 'Guess My Number',
-    img: 'assets/portfolio-pics/guess-my-number.png',
-    alt: 'Guess My Number',
-    description: 'This is a game completed during The Complete JavaScript Course that allows a user to try and guess a random #. The browser will lead the user in the right direction if they guess too high/low.',
-    github: 'https://github.com/alyssavoccia/guess-my-number',
-    demo: 'https://alyssavoccia.github.io/guess-my-number/'
   }
 ];
 
@@ -259,7 +257,7 @@ export const clientsPortfolio = [
     alt: 'Seaside Equity Group',
     description: 'Landing page for a real estate investment firm. Currently only has a link to subscribe to their newsletter.',
     github: 'https://github.com/alyssavoccia/seaside-equity-group',
-    demo: 'https://alyssavoccia.github.io/seaside-equity-group/'
+    liveSite: 'https://seasideinvests.com/'
   },
   {
     id: 2,
@@ -267,9 +265,18 @@ export const clientsPortfolio = [
     title: 'VAV Customs V2',
     img: 'assets/portfolio-pics/vav-customs.png',
     alt: 'VAV Customs',
-    description: 'This project was recently redone with React! It utilizes a landing page for the homepage, making use of CSS Grid. It also contains a blog & store page. While the blog page is currently under construction, the shop page utilizes the Shopify-Buy SDK to render shop items.',
+    description: 'This project was recently redone with React! It utilizes a landing page for the homepage, making use of CSS Grid and Flexbox. It also contains a blog & store page. While the blog page is currently under construction, the shop page utilizes the Shopify-Buy SDK to render shop items.',
     github: 'https://github.com/alyssavoccia/vav-customs-v2',
     demo: 'http://vavcustoms.rf.gd/'
+  },
+  {
+    id: 3,
+    tag: 'html-css-js',
+    title: 'Idea Tree Consulting',
+    img: 'assets/portfolio-pics/ideatree.png',
+    alt: 'Idea Tree',
+    description: 'This project was a landing page done for Idea Tree Consulting. It utilizes CSS Flexbox for the layout. It makes use of several sections and multiple card elements created with flexbox to display various information. This was created mobile first and utilizes a one column layout and hamburger menu for small devices.',
+    liveSite: 'https://ideatreeconsult.com/'
   },
 ]
 
