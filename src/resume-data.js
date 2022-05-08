@@ -1,17 +1,6 @@
 export const experienceResume = [
   {
     id: 1,
-    leftTitle: "Assistant Women's Lacrosse Coach",
-    dates: '2021 - Present',
-    rightTitle: 'Palm Beach Atlantic University',
-    points: [
-              'Create individual workouts and training programs for the student-athletes.', 
-              'Create and manage graphics and content for social media platforms.', 
-              'Monitor student-athlete academic progress and study hall.'
-            ]
-  },
-  {
-    id: 2,
     leftTitle: 'Director of Operations',
     dates: '2021 - Present',
     rightTitle: 'Lax Maniax',
@@ -20,6 +9,17 @@ export const experienceResume = [
               'Lead Maniax Training - a training system for Maniax Members providing weekly training content.', 
               'Manage and create team travel rosters, as well as creating documents with tournament and club information.', 
               'Create graphics and content across social media platforms.'
+            ]
+  },
+  {
+    id: 2,
+    leftTitle: "Assistant Women's Lacrosse Coach",
+    dates: '2021 - 2022',
+    rightTitle: 'Palm Beach Atlantic University',
+    points: [
+              'Create individual workouts and training programs for the student-athletes.', 
+              'Create and manage graphics and content for social media platforms.', 
+              'Monitor student-athlete academic progress and study hall.'
             ]
   },
   {
