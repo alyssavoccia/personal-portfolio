@@ -17,7 +17,7 @@ export const featuredPortfolio = [
     alt: 'VAV Customs',
     description: 'This project was recently redone with React! It utilizes a landing page for the homepage, making use of CSS Grid. It also contains a blog & store page. While the blog page is currently under construction, the shop page utilizes the Shopify-Buy SDK to render shop items.',
     github: 'https://github.com/alyssavoccia/vav-customs-v2',
-    demo: 'http://vavcustoms.rf.gd/'
+    demo: 'https://vav-customs-v2.vercel.app/'
   },
   {
     id: 3,
@@ -79,7 +79,7 @@ export const reactPortfolio = [
     alt: 'VAV Customs',
     description: 'This project was recently redone with React! It utilizes a landing page for the homepage, making use of CSS Grid. It also contains a blog & store page. While the blog page is currently under construction, the shop page utilizes the Shopify-Buy SDK to render shop items.',
     github: 'https://github.com/alyssavoccia/vav-customs-v2',
-    demo: 'http://vavcustoms.rf.gd/'
+    demo: 'https://vav-customs-v2.vercel.app/'
   },
   {
     id: 3,
@@ -267,7 +267,7 @@ export const clientsPortfolio = [
     alt: 'VAV Customs',
     description: 'This project was recently redone with React! It utilizes a landing page for the homepage, making use of CSS Grid and Flexbox. It also contains a blog & store page. While the blog page is currently under construction, the shop page utilizes the Shopify-Buy SDK to render shop items.',
     github: 'https://github.com/alyssavoccia/vav-customs-v2',
-    demo: 'http://vavcustoms.rf.gd/'
+    demo: 'https://vav-customs-v2.vercel.app/'
   },
   {
     id: 3,
